@@ -32,9 +32,15 @@ More Info: Amazon DynamoDB
 
 # Example Workflow:
 Sensor Data Collection: Use AWS IoT Core to securely send sensor data from the collar to the cloud.
+
 Data Processing: Use AWS Lambda or Amazon SageMaker to analyze this data and predict if the dog is stressed or aggressive.
+
 Voice Command Recognition: Use Amazon Lex for recognizing commands like "Stop."
+
 Feedback Mechanism: Use Amazon Polly to convert text into speech and provide auditory feedback to the dog.
+
 Real-Time Streaming: Use Amazon Kinesis to process live data for immediate intervention when aggressive behavior is detected.
+
 Data Storage: Store all data in Amazon DynamoDB for further analysis and to improve machine learning models.
+
 By leveraging these AWS services, can efficiently develop the AI-driven dog collar while minimizing infrastructure management and maximizing scalability.
