@@ -68,9 +68,15 @@ AI驱动的狗项圈项目采用了 Amazon Web Services (AWS) 提供的多项云
 更多信息：Amazon DynamoDB
 # 示例工作流程：
 传感器数据收集：通过 AWS IoT Core 安全传输项圈传感器数据至云端。
+
 数据处理：通过 AWS Lambda 或 Amazon SageMaker 分析这些数据，并预测狗是否有压力或攻击迹象。
+
 语音命令识别：通过 Amazon Lex 识别语音命令（如“停止”）。
+
 反馈机制：通过 Amazon Polly 将文本转换为语音，向狗提供听觉反馈。
+
 实时数据流处理：通过 Amazon Kinesis 处理实时数据，确保在检测到攻击行为时立即干预。
+
 数据存储：通过 Amazon DynamoDB 存储所有数据，以便未来分析和改进机器学习模型。
+
 通过利用这些AWS服务，AI驱动的狗项圈项目能够有效开发，同时减少基础设施管理，并最大化系统的可扩展性。
